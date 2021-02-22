@@ -1,4 +1,4 @@
-<center> ![Star Wars Wallpaper](https://rihappy.vteximg.com.br/arquivos/ids/866888/201005_Banner_Rihappi_star_wars_v3.png?v=637400999882400000) </center>
+![Star Wars Wallpaper](https://rihappy.vteximg.com.br/arquivos/ids/866888/201005_Banner_Rihappi_star_wars_v3.png?v=637400999882400000)>
 
 # Star Wars
 ## Este projeto tem como objetivo implementar os aprendizados adiquiridos em Spring Boot e Orientação a Objetos
