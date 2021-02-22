@@ -15,7 +15,7 @@
 
 - [x] Ter pelo menos uma classe abstrata que obrigue classes diferentes a implementarem um ou mais métodos.
 - [x] Deve haver pelo menos duas classes que implementam esses métodos.
-- [x] Deve haver um cálculo que retorne diferentes resultado para as classes (polimofirmos).
+- [x] Deve haver um cálculo que retorne diferentes resultado para as classes (polimorfismo).
 - [x] Contenha o EndPoint com método GET e um Path Param.
 - [x] Listar os dados em JSON a partir da classe controller.
 - [x] EndPoint de exclusão
