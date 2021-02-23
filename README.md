@@ -21,6 +21,6 @@
 - [x] EndPoint de exclusão
 
 ## Diagrama de classes
-![Diagrama de classes]()
+![Diagrama de classes](/docs/star-wars-dc.png)
 
 > Que a força esteja com vocês 😄⚡
