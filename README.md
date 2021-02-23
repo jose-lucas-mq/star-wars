@@ -1,7 +1,7 @@
 ![Star Wars Wallpaper](https://i5.walmartimages.com/dfw/4ff9c6c9-b89d/k2-_ef8e5daa-006f-41f6-8ec9-f076bd7db9f3.v1.jpg?odnWidth=1360&odnHeight=410&odnBg=ffffff)
 
 # Star Wars
-## Este projeto tem como objetivo implementar os aprendizados adiquiridos em Spring Boot e Orientação a Objetos
+## Este projeto tem como objetivo implementar os aprendizados adquiridos em Spring Boot e Orientação a Objetos
 
 > Motivos pelos quais escolhi o tema Star Wars 🔎
  
