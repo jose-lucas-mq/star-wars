@@ -14,7 +14,13 @@ public abstract class Personagem implements Comissao{
     public String planetaNatal;
     public Double salarioBase;
 
-    public Personagem(String nome, Integer tempoTela, String corSabre, Integer forca, String conviccao, String planetaNatal, Double salarioBase) {
+    public Personagem(String nome,
+                      Integer tempoTela,
+                      String corSabre,
+                      Integer forca,
+                      String conviccao,
+                      String planetaNatal,
+                      Double salarioBase) {
         this.nome = nome;
         this.tempoTela = tempoTela;
         this.corSabre = corSabre;

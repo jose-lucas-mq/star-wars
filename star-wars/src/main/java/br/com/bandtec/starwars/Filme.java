@@ -10,7 +10,10 @@ public class Filme {
     private Integer duracao;
 
 
-    public Filme(String titulo, String descricao, String diretor, Integer duracao) {
+    public Filme(String titulo,
+                 String descricao,
+                 String diretor,
+                 Integer duracao) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.diretor = diretor;
@@ -30,7 +33,5 @@ public class Filme {
         return diretor;
     }
 
-    public Integer getDuracao() {
-        return duracao;
-    }
+    public Integer getDuracao() { return duracao; }
 }

@@ -7,9 +7,14 @@ public class Jedi extends Personagem{
         return nivelFidelidade;
     }
 
-    public Jedi(String nome, Integer tempoTela, String corSabre,
-                Integer forca, String conviccao, String planetaNatal,
-                Double salarioBase, Integer nivelFidelidade) {
+    public Jedi(String nome,
+                Integer tempoTela,
+                String corSabre,
+                Integer forca,
+                String conviccao,
+                String planetaNatal,
+                Double salarioBase,
+                Integer nivelFidelidade) {
         super(nome, tempoTela, corSabre, forca, conviccao, planetaNatal, salarioBase);
         this.nivelFidelidade = nivelFidelidade;
     }

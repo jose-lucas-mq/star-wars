@@ -17,7 +17,9 @@ public class Diretor implements Comissao{
         return custoBase;
     }
 
-    public Diretor(String nome, Integer avaliacao, Double custoBase) {
+    public Diretor(String nome,
+                   Integer avaliacao,
+                   Double custoBase) {
         this.nome = nome;
         this.avaliacao = avaliacao;
         this.custoBase = custoBase;
