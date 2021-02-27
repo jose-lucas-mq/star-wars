@@ -5,6 +5,18 @@ public class Diretor implements Comissao{
     private Integer avaliacao;
     private Double custoBase;
 
+    public String getNome() {
+        return nome;
+    }
+
+    public Integer getAvaliacao() {
+        return avaliacao;
+    }
+
+    public Double getCustoBase() {
+        return custoBase;
+    }
+
     public Diretor(String nome, Integer avaliacao, Double custoBase) {
         this.nome = nome;
         this.avaliacao = avaliacao;
@@ -12,7 +24,7 @@ public class Diretor implements Comissao{
     }
 
     @Override
-    public Double comissao() {
-        return custoBase * (avaliacao / 100);
-    }
+    public Double comissao() { return (custoBase * avaliacao) / 10; }
+
+    public Double getComissao(){ return comissao(); }
 }

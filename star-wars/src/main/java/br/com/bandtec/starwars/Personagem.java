@@ -5,6 +5,11 @@ public abstract class Personagem implements Comissao{
     public Integer tempoTela;
     public String corSabre;
     public Integer forca;
+
+    public Double getSalarioBase() {
+        return salarioBase;
+    }
+
     public String conviccao;
     public String planetaNatal;
     public Double salarioBase;

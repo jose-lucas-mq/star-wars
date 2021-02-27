@@ -8,8 +8,12 @@ public class Sith extends Personagem{
         this.imortal = imortal;
     }
 
-    @Override
-    public Double comissao() {
-        return salarioBase * tempoTela;
+    public Boolean getImortal() {
+        return imortal;
     }
+
+    @Override
+    public Double comissao() { return (salarioBase * tempoTela) / 10; }
+
+    public Double getComissao(){ return comissao(); }
 }
