@@ -1,6 +1,8 @@
-package br.com.bandtec.starwars;
+package br.com.bandtec.starwars.Class;
 
-public class Diretor implements Comissao{
+import br.com.bandtec.starwars.Metods.Comissao;
+
+public class Diretor implements Comissao {
     private String nome;
     private Integer avaliacao;
     private Double custoBase;

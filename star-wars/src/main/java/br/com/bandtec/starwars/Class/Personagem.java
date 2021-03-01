@@ -1,6 +1,8 @@
-package br.com.bandtec.starwars;
+package br.com.bandtec.starwars.Class;
 
-public abstract class Personagem implements Comissao{
+import br.com.bandtec.starwars.Metods.Comissao;
+
+public abstract class Personagem implements Comissao {
     public String nome;
     public Integer tempoTela;
     public String corSabre;
@@ -75,4 +77,7 @@ public abstract class Personagem implements Comissao{
     public void setPlanetaNatal(String planetaNatal) {
         this.planetaNatal = planetaNatal;
     }
+
+
+
 }

@@ -1,4 +1,4 @@
-package br.com.bandtec.starwars;
+package br.com.bandtec.starwars.Class;
 
 public class Jedi extends Personagem{
     private Integer nivelFidelidade;

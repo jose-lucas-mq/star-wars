@@ -1,4 +1,4 @@
-package br.com.bandtec.starwars;
+package br.com.bandtec.starwars.Class;
 
 public class Sith extends Personagem{
     private Boolean imortal;
