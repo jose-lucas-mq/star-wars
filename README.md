@@ -79,15 +79,15 @@ http://localhost:8080/estudio/
                 {
                     "elenco": [
                         {
-                            "nome": "Darth Maul",
-                            "tempoTela": 12,
+                            "nome": "Darth Vader",
+                            "tempoTela": 35,
                             "corSabre": "Vermelho",
-                            "forca": 89,
-                            "conviccao": "Orfão/Vingança",
-                            "planetaNatal": "Dathomir",
-                            "salarioBase": 1225.0,
+                            "forca": 98,
+                            "conviccao": "Perdeu a família",
+                            "planetaNatal": "Tatooine",
+                            "salarioBase": 1225.5,
                             "imortal": false,
-                            "comissao": 1470.0
+                            "comissao": 1470.6
                         }
                     ],
                     "nome": "antagonistas"
@@ -113,12 +113,12 @@ Podemos fazer o mesmo para o Diretor e Jedi, aproveitando e adicionando um Elenc
                 {
                     "elenco": [
                         {
-                            "nome": "Darth Maul",
-                            "tempoTela": 12,
+                            "nome": "Darth Vader",
+                            "tempoTela": 35,
                             "corSabre": "Vermelho",
-                            "forca": 89,
-                            "conviccao": "Orfão/Vingança",
-                            "planetaNatal": "Dathomir",
+                            "forca": 98,
+                            "conviccao": "Perdeu a família",
+                            "planetaNatal": "Tatooine",
                             "salarioBase": 1225.5,
                             "imortal": false,
                             "comissao": 1470.6
