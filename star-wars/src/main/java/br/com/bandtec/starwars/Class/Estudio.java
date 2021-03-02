@@ -23,7 +23,7 @@ public class Estudio implements Crud {
 
     @Override
     public void delete(int index) {
-        filmes.get(index);
+        filmes.remove(index);
     }
 
     @Override

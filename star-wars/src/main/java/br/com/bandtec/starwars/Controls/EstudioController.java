@@ -18,7 +18,7 @@ public class EstudioController {
 
     @GetMapping("/{index}")
     public Filme get(@PathVariable int index){
-        if (estudio.getFilmes().size() < index)
+        if (estudio.getFilmes().size() > index)
             return estudio.getFilmes().get(index);
         else
             return null;
@@ -31,14 +31,14 @@ public class EstudioController {
 
     @DeleteMapping("/{index}")
     public void remove(@PathVariable int index){
-        if(estudio.getFilmes().size() < index)
+        if(estudio.getFilmes().size() > index)
             estudio.delete(index);
         else {
         }
     }
 
     @PutMapping("/{index}")
-    public void set(int index, @RequestBody Filme filme){
+    public void set(@PathVariable int index, @RequestBody Filme filme){
         estudio.update(index, filme);
     }
 }

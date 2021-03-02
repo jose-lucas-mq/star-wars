@@ -45,7 +45,7 @@ public class Filme implements Crud {
 
     @Override
     public void delete(int index) {
-        elenco.get(index);
+        elenco.remove(index);
     }
 
     @Override

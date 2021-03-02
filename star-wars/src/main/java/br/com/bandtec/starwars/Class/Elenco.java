@@ -8,14 +8,27 @@ import java.util.List;
 
 public class Elenco implements Crud {
     public List<Comissao> elenco;
+    private String nome;
 
-    public Elenco() {
+    public Elenco(String nome)  {
+        this.nome = nome;
         this.elenco = new ArrayList<>();
+    }
+
+    public Elenco(List<Comissao> elenco, String nome) {
+        this.elenco = elenco;
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
     }
 
     public List<Comissao> getElenco() {
         return elenco;
     }
+
+
 
     @Override
     public void create(Object obj) {
